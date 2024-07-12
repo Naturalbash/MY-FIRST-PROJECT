@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    background-color: #35424a;
+    border-bottom: solid 3px orangered;
+}
+
+.nav-content {
+    padding: 25px 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav-link li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 500;
+    transition: all 300ms ease-in;
+    text-transform: uppercase;
+}
+
+.nav-link li a:hover {
+    color: orangered;
+}
+
+.flex-1 h1 {
+    color: white;
+    text-transform: capitalize;
+}
+
+.flex-1 h1 span {
+    color: orangered;
+}
+
+.hero{
+    background-image: url(../image/showcase.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    top: 5rem;
+    padding: 25px;
+}
+
+.text h1{
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.showcase {
+    background-color: #35424a;
+    padding: 25px 35px;
+
+}
+
+.go {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+    color: white;
+}
+
+form input {
+    padding: 8px;
+    text-transform: capitalize;
+}
+
+form button {
+    padding: 8px;
+    border: none;
+    background-color: orangered;
+    color: whitesmoke;
+    cursor: pointer;
+    text-transform: capitalize;
+    font: 400;
+    font-size: 0.8rem;
+}
+
+
+
+form input:focus {
+    outline: none;
+}
+.text p {
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+}

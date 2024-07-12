@@ -1,0 +1,292 @@
+/* COLORS
+GREY: #272e3d;
+RED: #f00;
+BLACK: #000;
+WHITE: #fff;
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #272e3d;
+  padding: 24px 86px;
+  border-bottom: 2px solid #f00;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: whitesmoke;
+  margin: 0;
+}
+
+.logo p {
+  letter-spacing: -1px;
+  font-size: 20px;
+  color: #f00;
+  display: inline;
+}
+
+.nav-list {
+  text-transform: uppercase;
+  list-style-type: none;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: whitesmoke;
+  transition: 2ms ease-out all;
+}
+
+.nav-list a:hover {
+  color: #f00;
+}
+
+/* .nav-list a:visited {
+    color: #f00;
+} */
+
+/* .nav-list li:nth-child(3) a {
+    color: #f00;
+} */
+
+.section-hero {
+  background: url(./image/showcase.jpg) no-repeat fixed;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 82px;
+}
+
+h1 {
+  font-size: 48px;
+  color: #fff;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+p {
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+}
+
+.sub-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 64px;
+  background-color: #272e3d;
+}
+
+.sub-container p {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: white;
+}
+
+.sub-field input {
+  font-size: 12px;
+  padding: 12px 64px 12px 5px;
+  background-color: #fff;
+  color: #272e3d;
+  border: none;
+}
+
+.sub-field button {
+  border: none;
+  padding: 12px 14px;
+  background-color: #f00;
+  color: #fff;
+  cursor: pointer;
+  transition: all 4ms ease-out;
+}
+
+.sub-field button:hover {
+  background-color: #fff;
+  color: #f00;
+}
+
+.section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 32px 64px;
+}
+
+.section2 img {
+  width: 60px;
+}
+
+.section2 h2 {
+  font-size: 20px;
+}
+
+.section2 p {
+  font-size: 14px;
+  color: #000;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer {
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold;
+  padding: 24px;
+  background-color: #f00;
+}
+
+/* ABOUT STYLING */
+
+.about-header {
+  color: #000;
+  text-align: left;
+  font-size: 24px;
+  margin: 24px 0 24px 64px;
+  font-weight: bold;
+}
+
+.about-container {
+  padding: 0 64px;
+  display: flex;
+  justify-content: left;
+  align-items: top;
+  gap: 48px;
+}
+
+.about-grp-1 p {
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 14px;
+  text-align: left;
+}
+
+.about-grp-1 p:nth-child(2) {
+  background-color: #272e3d;
+  color: #fff;
+  padding: 10px 14px;
+}
+
+.about-grp-2 {
+  width: 60%;
+  background-color: #272e3d;
+  color: #fff;
+  text-align: center;
+  padding: 16px 24px;
+}
+
+/* SERVICES STYLING */
+.service-header {
+  color: #000;
+  text-align: left;
+  font-size: 24px;
+  margin: 24px 0 24px 64px;
+  font-weight: bold;
+}
+
+.service-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  margin: 0 64px;
+}
+
+.service-grp-1 {
+  color: #000;
+  padding: 24px 16px;
+  width: 60%;
+}
+
+.service-grp-1 h3 {
+  font-size: 16px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.service-grp-1 p {
+  font-size: 14px;
+  color: #000;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.service-form {
+  color: #fff;
+  padding: 24px 16px;
+  background-color: #272e3d;
+  width: 30%;
+}
+
+.service-form h2 {
+  text-transform: capitalize;
+  font-size: 16px;
+  margin-bottom: 18px;
+}
+
+.label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.input-field {
+  font-size: 14px;
+  width: 100%;
+  padding: 4px 8px;
+  margin-bottom: 14px;
+  display: block;
+  width: 100%;
+}
+
+.service-form button {
+  border: none;
+  background-color: #f00;
+  color: #fff;
+  padding: 4px 8px;
+  font-size: 14px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+textarea {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.group {
+  margin-bottom: 10px;
+  background-color: #7c7d80;
+  padding: 14px 16px;
+}
