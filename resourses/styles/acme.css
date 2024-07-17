@@ -159,6 +159,7 @@ p {
 }
 
 .footer {
+  display: block;
   font-size: 14px;
   color: #fff;
   font-weight: bold;
