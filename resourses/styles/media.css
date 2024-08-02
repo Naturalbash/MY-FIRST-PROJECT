@@ -1,15 +1,79 @@
-@media screen and (max-width: 752px) {
+@media screen and (max-width: 700px)  {
+    body {
+        position: relative;
+    }
+
     .navbar {
+        padding: 20px 10px 24px 60px;
+    }
+
+    .nav-list {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 80px 10px 14px 20px ;
+        box-shadow: 1px 1px 10px #f00;
+        width: 250px;
+        height: 220px;
         flex-direction: column;
-        gap: 10px;
+        gap: 32px;
+        background-color: whitesmoke;
+        opacity: 0.3;
+        justify-content: flex-start;
+        align-items: flex-start;
+        
+
+    }
+
+    .nav-list a {
+        color: #f00;
+        font-size: 16px;
+    }
+
+    .menu {
+        display: block;
+        z-index: 999;
+    }
+
+    .section-hero {
+        height: 450px;
+    }
+
+    .section-hero h1 {
+        font-size: 38px;
+    }
+
+    .section-hero p {
+        line-height: 20px;
     }
 
     .sub-container {
         flex-direction: column;
-        gap: 10px;
+        gap: 20px;
     }
 
     .section2 {
-        flex-direction: column;
+        gap: 20px;
     }
 }
+
+@media screen and (max-width: 610px) {
+    .section2 {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .section-hero h1 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    .sub-field {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+
+    }
+}
+
